@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #000;
+	font-size: 1.6rem;
+}
+
+.countdown {
+	background-color: #fff;
+	border-radius: 1rem;
+	border: 0.3rem solid #dedede;
+	color: #000;
+	margin: 5rem auto;
+	max-width: 70rem;
+	padding: 3rem;
+	text-align: center;
+}
+
+.countdown__number {
+	background-size: cover;
+	background: url("sprite.png") no-repeat 0 0;
+	color: transparent;
+	display: inline-block;
+	height: 5rem;
+	width: 3rem;
+	margin: 0;
+}
+
+.countdown__number--0 {
+	background-position: 0 -0.2%;
+}
+
+.countdown__number--1 {
+	background-position: 0 10%;
+}
+
+.countdown__number--2 {
+	background-position: 0 20%;
+}
+
+.countdown__number--3 {
+	background-position: 0 30%;
+}
+
+.countdown__number--4 {
+	background-position: 0 40%;
+}
+
+.countdown__number--5 {
+	background-position: 0 50.1%;
+}
+
+.countdown__number--6 {
+	background-position: 0 60%;
+}
+
+.countdown__number--7 {
+	background-position: 0 70.2%;
+}
+
+.countdown__number--8 {
+	background-position: 0 80.3%;
+}
+
+.countdown__number--9 {
+	background-position: 0 90.5%;
+}
+
+.countdown__colon {
+	color: transparent;
+}
+
+.countdown__colon::before {
+	content: ':';
+	color: #000;
+	vertical-align: middle;
+	font-size: 5.5rem;
+	height: 5rem;
+	margin: 0 0.2rem 0 0.5rem;
+	display: inline-block;
+}
+
