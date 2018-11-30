@@ -20,7 +20,7 @@ export default class Countdown {
   start() {
     const { errorClassName } = this._options;
 
-    this.fetchFinalDate()
+    return this.fetchFinalDate()
       .catch(err => {
         this._element.classList.add(errorClassName);
         console.error(err);
